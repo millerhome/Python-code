@@ -15,4 +15,4 @@ print('馬超' in smp2)
 #------------------------------------
 print(smp1.intersection(smp2)) #smp1跟smp2的交集#
 print(smp1.union(smp2)) #smp1與smp2的聯集
-print(smp1.difference(smp2))#smp1與smp2的差集,只存在smp1的值#
+print(smp1.difference(smp2))#smp1與smp2的差集,只存在smp1的值# 
