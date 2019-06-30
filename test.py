@@ -1,6 +1,4 @@
-a=1
-b=2
-c=a+b
-print(c)
-print("04:08")
-print(type(c))
+import tensorflow as tf
+hello=tf.constant('hello,tensorflow')
+sess=tf.sess()
+print(sess.run(hello))
