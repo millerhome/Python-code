@@ -15,6 +15,6 @@ def fun1(list,ss) :
         else:
             i+=1
     return rult
-litAA=[0,5,2,4]
-AA=str(fun1(litAA,1))
+litAA=[0,5,2,4,6,7,8]
+AA=str(fun1(litAA,6))
 print('找出list中，最接近目標參數的值:'+AA) 
