@@ -5,7 +5,7 @@ def fun1(list,ss) :
     rult=ss
     while i<max:
         if list[i]>ss:
-            print('%s %d'%(list[i],rult))
+            print('%s %d'%(list[i],rult)) #print多參數
             if list[i] >rult or list[i]>ss:
                if rult>ss and rult<list[i]:
                     rult=rult
