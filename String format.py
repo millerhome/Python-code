@@ -13,5 +13,7 @@ output='My name is {} {}'.format(first_name,last_name) #{}搭配 format語法..�
 print(output)
 output='My name is {0}_{1}'.format(first_name,last_name)#{0}編號由0開始,有順序性
 print(output)
+output='My name is {1}_{0}'.format(first_name,last_name)#{0}編號由0開始,有順序性
+print(output)
 output=f'My name is {first_name} {last_name}' #此寫法僅支援python 3,f關鍵字表示format
 print(output) 
